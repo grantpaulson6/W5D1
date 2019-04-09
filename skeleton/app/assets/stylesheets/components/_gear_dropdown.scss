@@ -2,18 +2,21 @@
 
 
 
-// .editions li:hover, .help li:hover {
-//   background: $light-gray;
-// }
+.editions li:hover, .help li:hover {
+  background: $light-gray;
+}
 
 #gear-dropdown {
   position: absolute;
-  background: white;
+  background: $lightest-gray;
+  padding: 10 px;
+  border: 1px solid black;
   flex-direction: column;
   width: 100px;
   height: 150px;
   right: 125px;
   box-shadow: 1px 2px;
   font-size: 16px;
+  z-index: 1;
 }
 
