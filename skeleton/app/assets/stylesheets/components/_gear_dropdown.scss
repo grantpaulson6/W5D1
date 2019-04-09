@@ -1,0 +1,19 @@
+// Use the gear_dropdown.png screenshot as a style guide
+
+
+
+// .editions li:hover, .help li:hover {
+//   background: $light-gray;
+// }
+
+#gear-dropdown {
+  position: absolute;
+  background: white;
+  flex-direction: column;
+  width: 100px;
+  height: 150px;
+  right: 125px;
+  box-shadow: 1px 2px;
+  font-size: 16px;
+}
+

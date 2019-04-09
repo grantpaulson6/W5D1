@@ -1,0 +1,17 @@
+.sections-nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.sections-nav li {
+  margin: 7px;
+}
+
+.sections-nav li:hover {
+  background: $light-gray;
+}
+
+.sections-nav li:last-child {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
